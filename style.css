@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1637776895052-86e559e887b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-image: url(https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    
+  }
+  .form-control {
+    margin-bottom: 10px;
+  }
+  .form-control label {
+    display: block;
+    color: black;
+    margin-bottom: 5px;
+
+  }
+  .form-control input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    border-radius: 20px;
+  }
+  .form-control input:focus {
+    outline: none;
+    border: 2px solid black;
+    
+  }
+  button {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .form-control small {
+    visibility: hidden;
+    color: red;
+  }
+  .form-control.error small {
+    visibility: visible;
+  }
+  .form-control.error input {
+    border: 2px solid red;
+  }
+  .form-control.success input {
+    border: 2px solid green;
+  }
